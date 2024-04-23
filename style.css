@@ -1,0 +1,95 @@
+html {
+    background-color: yellow;
+    font-size: 60px;
+}
+
+.showImg {
+    display:block
+}
+
+.hideImg {
+    display: none;
+}
+
+.hideContent {
+    display: none;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.slideshow {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.imageContainer {
+    width: 600px;
+    height: auto;
+}
+
+
+
+img {
+    max-width: 600px;
+}
+
+.navCircles {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.dot1 {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot2 {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot3 {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot4 {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.selectedDot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: red;
+}
+
+.dots:hover{
+    background-color: blue;
+    cursor: grab;
+
+}
+
+.navArrows:hover{
+    background-color: rgba(180, 180, 214, 0.571);
+    border-radius: 20%;
+    cursor: grab;
+
+}
